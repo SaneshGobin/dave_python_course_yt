@@ -77,3 +77,28 @@ print()
 # Build a menu
 title = 'menu'.upper()
 print(title.center(20, "="))
+print("Coffee".ljust(16, ".") + "R20".rjust(4))
+print("Tea".ljust(16, ".") + "R15".rjust(4))
+print("Muffin".ljust(16, ".") + "R16".rjust(4))
+print("Cheesecake".ljust(16, ".") + "R25".rjust(4))
+
+print("")
+
+# string index value
+print(first[1])
+print(first[-1])  # reference the last value
+print(first[1:-1])
+print(first[1:])
+
+# some methods return boolean data
+print(first.startswith("S"))
+print(first.endswith("s"))
+
+
+# boolean data type
+myvalue = True
+x = bool(False)
+
+print(myvalue)
+print(type(x))
+print(isinstance(myvalue, bool))
